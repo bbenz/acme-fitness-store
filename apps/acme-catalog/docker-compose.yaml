@@ -5,6 +5,7 @@ services:
     image: postgres
     environment:
       POSTGRES_USER: root
+      # This is a fake password used to test security.
       POSTGRES_PASSWORD: Y4ab3025808042YOLO1b32439492e0d
       POSTGRES_DB: acmefit
     ports:
