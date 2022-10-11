@@ -5,7 +5,7 @@ ENV REDIS_PORT="6379"
 ENV REDIS_PASSWORD=""
 
 # This is a fake password for security testing:
-ENV AZURE_CACHE_FOR_REDIS_ACCESS_KEY="a4ab3025YOLO42T0t@ll^f@keP@55w0rd"
+ENV azure_cache_for_redis_access_key="a4ab3025YOLO42T0t@ll^f@keP@55w0rd"
 
 ENV TRACER_HOST="localhost"
 ENV TRACER_PORT="6832"
